@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard — DevAcademy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="brand"><span class="brand-badge">&lt;/&gt;</span> DevAcademy</a>
+            <div class="nav-actions">
+                <a href="index.html" class="btn btn-outline">← Back to Home</a>
+                <button class="btn btn-primary" id="logoutBtn">Logout</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="content-body">
+        <div class="dashboard-header">
+            <h1>Welcome back, <span id="dashStudentName">Student</span> 👋</h1>
+            <p>Track your evaluation stats or launch a new technical quiz.</p>
+        </div>
+
+        <div class="stats-row">
+            <div class="stat-card">
+                <span class="stat-icon">🏆</span>
+                <div>
+                    <span class="stat-label">Best Score</span>
+                    <h3 id="statBestScore">0/15 (0%)</h3>
+                </div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-icon">📈</span>
+                <div>
+                    <span class="stat-label">Total Attempts</span>
+                    <h3 id="statAttempts">0</h3>
+                </div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-icon">⚡</span>
+                <div>
+                    <span class="stat-label">Last Score</span>
+                    <h3 id="statLastScore">--</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="courses-section">
+            <h2>Available Skill Assessments</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-badge">Core Assessment</div>
+                    <h3>Web Development Assessment</h3>
+                    <p>15 Questions • 30 Minutes • HTML, CSS, JS & Modern Web Architecture</p>
+                    <a href="quiz.html" class="btn btn-primary">Start Assessment</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>

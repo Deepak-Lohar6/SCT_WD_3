@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment Results — DevAcademy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="dashboard.html" class="brand"><span class="brand-badge">&lt;/&gt;</span> DevAcademy</a>
+        </div>
+    </header>
+
+    <main class="content-body">
+        <div class="result-card">
+            <div class="result-badge" id="resultBadge">Passed</div>
+            <h2>Assessment Completed!</h2>
+            <p id="resultFeedback">Great job on finishing the assessment.</p>
+
+            <div class="score-display">
+                <span id="resultScore" class="big-score">0 / 15</span>
+                <span id="resultPercentage" class="percentage-score">0%</span>
+            </div>
+
+            <div class="result-stats">
+                <div>
+                    <span>Best Score</span>
+                    <strong id="resultBest">0%</strong>
+                </div>
+                <div>
+                    <span>Total Attempts</span>
+                    <strong id="resultAttempts">1</strong>
+                </div>
+            </div>
+
+            <div class="result-actions">
+                <a href="review.html" class="btn btn-primary">Review Answers</a>
+                <a href="dashboard.html" class="btn btn-outline">Back to Dashboard</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="result.js"></script>
+</body>
+</html>
