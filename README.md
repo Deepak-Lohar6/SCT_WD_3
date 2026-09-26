@@ -28,3 +28,32 @@ This project fulfills **Task 03: Quiz & Learning Application** for the **SkillCr
 * **HTML5:** Semantic multi-page structure.
 * **CSS3:** Custom properties, Flexbox/Grid layouts, and dark theme design.
 * **JavaScript (ES6+):** Client-side state handling, LocalStorage session persistence, countdown timer logic, dynamic DOM generation, and review rendering.
+
+---
+
+## 📁 Project Structure
+
+```text
+SCT_WD_3/
+├── index.html            # Public landing page
+├── login.html            # User authentication login
+├── signup.html           # User registration
+├── forgot-password.html  # Password recovery screen
+├── dashboard.html        # Student statistics & course dashboard
+├── quiz.html             # 15-question timed assessment view
+├── result.html           # Score breakdown & feedback screen
+├── review.html           # Answer key & detailed explanations feed
+│
+├── style.css             # Unified global stylesheet
+│
+├── script.js            # Landing page session handler
+├── signup.js            # User registration event logic
+├── login.js             # Authentication validator
+├── forgot-password.js   # Password reset engine
+├── dashboard.js         # Dashboard statistics calculator
+├── quiz.js              # Timer engine & quiz navigator
+├── questions.js         # Assessment question database
+├── result.js            # Score evaluation & result display
+├── review.js            # Answer key feed generator
+│
+└── README.md            # Documentation
