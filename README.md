@@ -4,6 +4,12 @@ A multi-page client-side web application featuring authentication, dashboard ana
 
 ---
 
+## 🌐 Live Demo
+
+<a href="https://deepak-lohar6.github.io/SCT_WD_3/" target="_blank">Click here to view the live app</a>
+
+---
+
 ## 🚀 Overview
 
 **DevAcademy** provides a complete web development quiz environment. Split cleanly into modular pages and scripts, it supports registration, secure login, password resets, real-time timed quiz execution, persistent score histories, and comprehensive question explanations—built with native web technologies.
@@ -25,13 +31,13 @@ This project fulfills **Task 03: Quiz & Learning Application** for the **SkillCr
 
 ## 🛠️ Tech Stack
 
-* **HTML5:** Semantic multi-page structure.
-* **CSS3:** Custom properties, Flexbox/Grid layouts, and dark theme design.
-* **JavaScript (ES6+):** Client-side state handling, LocalStorage session persistence, countdown timer logic, dynamic DOM generation, and review rendering.
+* **HTML5:** Semantic markup structure.
+* **CSS3:** Custom styles, CSS variables, Flexbox, Grid layouts, glassmorphism backdrop filters, and animations.
+* **JavaScript (ES6+):** State management, LocalStorage session persistence, countdown timer logic, DOM manipulation, metrics calculations, and review rendering.
 
 ---
 
-## 📁 Project Structure
+## 📁 Poject Structure
 
 ```text
 SCT_WD_3/
@@ -56,4 +62,4 @@ SCT_WD_3/
 ├── result.js            # Score evaluation & result display
 ├── review.js            # Answer key feed generator
 │
-└── README.md            # Documentation
+└── README.md            # Comprehensive project documentation
